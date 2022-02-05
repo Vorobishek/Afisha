@@ -33,13 +33,13 @@ public class FilmManager {
         return films;
     }
 
-    public Film[] showFilms(int limitFilmShow) {
+    public Film[] showFilms() {
 //вычисляем какой длинны должен быть массив выводимый на экран
         int resultLength = limitFilmShow;
-        if (resultLength <= films.length ) {
-            resultLength = resultLength;
+        if (resultLength >= films.length ) {
+            resultLength = films.length;
         } else {
-            resultLength = 10;
+            resultLength = limitFilmShow;
         }
 //создаем массив который будем выводить
         Film[] filmShown = new Film[resultLength];
