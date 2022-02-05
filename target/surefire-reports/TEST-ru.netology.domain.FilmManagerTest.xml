@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.domain.FilmManagerTest" time="0.079" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.domain.FilmManagerTest" time="0.063" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\vorob\AppData\Local\Temp\surefire13455588586520382303\surefirebooter7615460383798653733.jar C:\Users\vorob\AppData\Local\Temp\surefire13455588586520382303 2022-02-04T23-35-52_843-jvmRun1 surefire8982328183717979386tmp surefire_017326744710848125922tmp"/>
+    <property name="sun.java.command" value="C:\Users\vorob\AppData\Local\Temp\surefire12921127366741033734\surefirebooter3810960854328805610.jar C:\Users\vorob\AppData\Local\Temp\surefire12921127366741033734 2022-02-04T23-54-02_215-jvmRun1 surefire4772255335356552361tmp surefire_06151313229785983621tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\vorob\IdeaProjects\Afisha\target\test-classes;C:\Users\vorob\IdeaProjects\Afisha\target\classes;C:\Users\vorob\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\vorob\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\vorob\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vorob\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\vorob\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vorob\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\vorob\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\vorob\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\vorob\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\vorob\AppData\Local\Temp\surefire13455588586520382303\surefirebooter7615460383798653733.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vorob\AppData\Local\Temp\surefire12921127366741033734\surefirebooter3810960854328805610.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.12+7"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="showFilms" classname="ru.netology.domain.FilmManagerTest" time="0.063"/>
+  <testcase name="showFilms" classname="ru.netology.domain.FilmManagerTest" time="0.047"/>
   <testcase name="addFilmFirst" classname="ru.netology.domain.FilmManagerTest" time="0"/>
   <testcase name="addFilm" classname="ru.netology.domain.FilmManagerTest" time="0"/>
   <testcase name="showFilmsWithLimitMoreThenTen" classname="ru.netology.domain.FilmManagerTest" time="0"/>
