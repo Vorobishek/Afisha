@@ -9,7 +9,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class FilmElement {
+public class Film {
     private int filmID;
     private String filmName;
     private String filmType;

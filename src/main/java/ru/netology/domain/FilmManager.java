@@ -1,11 +1,10 @@
 package ru.netology.domain;
 
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 public class FilmManager {
-    private FilmElement[] films = new FilmElement[0];
+    private Film[] films = new Film[0];
     private int limitFilmShow = 10;
 
 //конструктор с заданым кол-во фильмов для вывода на экран
@@ -13,10 +12,14 @@ public class FilmManager {
         this.limitFilmShow = limitFilmShow;
             }
 
-    public FilmElement[] addFilm(FilmElement film) {
+    public Film[] getFilms() {
+        return films;
+    }
+
+    public Film[] addFilm(Film film) {
 //создаем массив на один элемент больше
         int length = films.length + 1;
-        FilmElement tmp[] = new FilmElement[length];
+        Film tmp[] = new Film[length];
 
 //копируем поэлементно
         for (int i = 0; i < films.length; i++) {
@@ -30,16 +33,16 @@ public class FilmManager {
         return films;
     }
 
-    public FilmElement[] showFilms(int limitFilmShow) {
+    public Film[] showFilms(int limitFilmShow) {
 //вычисляем какой длинны должен быть массив выводимый на экран
         int resultLength = limitFilmShow;
-        if (resultLength <= 10) {
+        if (resultLength <= films.length ) {
             resultLength = resultLength;
         } else {
             resultLength = 10;
         }
 //создаем массив который будем выводить
-        FilmElement[] filmShown = new FilmElement[resultLength];
+        Film[] filmShown = new Film[resultLength];
 //складываем данные в созданный массив в обратном порядке
         for (int i = 0; i < filmShown.length; i++) {
             int index = films.length - i - 1;
